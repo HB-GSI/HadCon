@@ -10,7 +10,6 @@
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="Instrument Driver" Type="Str">True</Property>
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for HADCON device manufactured by GSI Helmholtzzentrum für Schwerionenforschung GmbH.
 
 Lizenziert unter EUPL V. 1.1
@@ -41,11 +40,16 @@ Dr. Holger Brand, CSEE, Planckstr. 1, 64291 Darmstadt ,Germany.
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Example" Type="Folder">
+		<Item Name="Get Help.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Examples/Get Help.vi"/>
+		<Item Name="Interactive Test.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Examples/Interactive Test.vi"/>
+		<Item Name="Read All RADC.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Examples/Read All RADC.vi"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Private/Default Instrument Setup.vi"/>
 		<Item Name="Transaction.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Private/Transaction.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Private/Default Instrument Setup.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -58,19 +62,22 @@ Dr. Holger Brand, CSEE, Planckstr. 1, 64291 Darmstadt ,Germany.
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/HadCon/Public/Data/Data.mnu"/>
+			<Item Name="Read RAW ADC.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Data/Read RAW ADC.vi"/>
+			<Item Name="Read All RAW ADC.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Data/Read All RAW ADC.vi"/>
+			<Item Name="Read Register.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Data/Read Register.vi"/>
+			<Item Name="Write Register.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Data/Write Register.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Utility.mnu"/>
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Error Query.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Revision Query.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Self-Test.vi"/>
 			<Item Name="Help Query.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Help Query.vi"/>
+			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Utility.mnu"/>
+			<Item Name="Manual Query.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Utility/Manual Query.vi"/>
 		</Item>
-		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/HadCon/Public/dir.mnu"/>
 		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/Initialize.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/VI Tree.vi"/>
+		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/HadCon/Public/dir.mnu"/>
 	</Item>
 	<Item Name="HadCon Readme.html" Type="Document" URL="/&lt;instrlib&gt;/HadCon/HadCon Readme.html"/>
+	<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/HadCon/Public/VI Tree.vi"/>
 </Library>
