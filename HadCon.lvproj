@@ -4,6 +4,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for the LabVIEW Plug and Play instrument driver of the HADCON.
 
+HadCon2 firmware can be found on Github: https://github.com/zumbruch/HadCon2
+
 Lizenziert unter EUPL V. 1.1
 
 Copyright 2014 GSI Helmholtzzentrum für Schwerionenforschung GmbH
@@ -26,6 +28,7 @@ Dr. Holger Brand, CSEE, Planckstr. 1, 64291 Darmstadt ,Germany.
 		<Item Name="HadCon.lvlib" Type="Library" URL="/&lt;instrlib&gt;/HadCon/HadCon.lvlib"/>
 		<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="/&lt;instrlib&gt;/HadCon/EUPL v.1.1 - Lizenz.pdf"/>
 		<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="/&lt;instrlib&gt;/HadCon/EUPL v.1.1 - Lizenz.rtf"/>
+		<Item Name="README.md" Type="Document" URL="/&lt;instrlib&gt;/HadCon/README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
